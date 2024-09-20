@@ -1425,7 +1425,9 @@ The following window will appear:
 
 Depending on your network architecture the IP address Charles is running on may differ.
 
-4. Open the browser on the iOS device and follow the link — [http://chls.pro/ssl](http://chls.pro/ssl)
+4. Open the browser on the iOS device and follow the link — [http://ssl.charles](http://ssl.charles)
+
+Note: ssl.charles works even if you're offline, whereas chls.pro/ssl in the app's instructions is used by the developer to track usage. Dev's server responds with an `<iframe src="http://ssl.charles">` which is really what pushes the certificate to the iOS device.
 
 <div align="center"><img src="https://ia601403.us.archive.org/18/items/8-e-269-ece-3-a-71-4-b-12-a-460-ca-06-db-9297-b-2/mc_6ol45uh4yrwixs0b0p0ko9xm.png" alt=""  width="336px" /></div>
 
